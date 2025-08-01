@@ -10,4 +10,6 @@ h1,p{
 
 header {
     background-color: chocolate;
+    color: rgb(0, 0, 0);
+    padding: 50px;
 }
