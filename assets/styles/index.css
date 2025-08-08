@@ -1,15 +1,52 @@
 /* Reset do CSS */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1,p{
-    text-align: center;
+/*configurações Gerais*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+
 
 header {
-    background-color: chocolate;
-    color: rgb(0, 0, 0);
-    padding: 50px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 253, 253);
+  padding: 50px;
+  text-align: center;
+}
+
+main {
+  background-color: rgb(224, 224, 224);
+  flex: 1;
+  padding: 48px 38px 48px 38px;
+  width: 100%;
+}
+
+about-section{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40PX;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+
+#titulo-sobre-mim{
+  font-size: 30px;
+  border-bottom: 2px solid black;
+
+}
+
+.titulo-sobre-mim{
+  font-size: 20px;
+  
+  
 }
