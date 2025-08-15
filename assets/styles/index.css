@@ -86,3 +86,41 @@ li:hover{
   border-bottom: 2px solid black;
   margin-bottom: 20px;
 }
+contact{
+  display: block;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+contact h2{
+  margin-bottom: 8px;
+  font-size: 30px;
+  text-align: center;
+}
+
+contact p{
+  text-align: center;
+  font-size: 22px;
+}
+
+contact a{
+  color: rgb(243, 26, 26);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: 2px solid;
+  border-radius: 25px;
+  display: inline-block;
+  transition: all 0.3seg ease;
+}
+
+contact a:hover{
+  background-color: rgb(255, 0, 0);
+  color:rgb(255, 255, 255);
+  transform: translate(-2px);
+}
