@@ -124,3 +124,15 @@ contact a:hover{
   color:rgb(255, 255, 255);
   transform: translate(-2px);
 }
+
+footer{
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+footer p{
+  font-size:2rem;
+}
